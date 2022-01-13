@@ -1,4 +1,10 @@
+
 window.onload = () =>{
-  console.log("first Page");
-  alert("First Page");
+
+  document.getElementById('btn').addEventListener('click', ()=>{
+
+    alert("First Page");
+  });
+
+  
 }
